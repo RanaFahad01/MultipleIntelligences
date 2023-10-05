@@ -1,0 +1,4 @@
+{
+  "answersFilePath": "src/test/resources/TestAnswersFile.txt",
+  "jobsFilePath": "src/test/resources/testjobs.json"
+}

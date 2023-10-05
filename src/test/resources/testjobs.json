@@ -1,0 +1,42 @@
+{
+  "Naturalist": [
+    "You possess the ability to differentiate, categorize, and utilize attributes within your surroundings.\nIndividuals such as gardeners, florists, and geologists exhibit this type of intelligence when it comes to understanding the natural world.",
+    "Horticulturalist,Gardener,Landscape Architect,Farmer,Park Ranger,Animal Trainer,Naturalist,Conservationist,Scientist"
+  ],
+
+  "Musical": [
+    "You have the capacity to generate, convey, and comprehend meanings constructed from auditory signals.\nThis form of intelligence is demonstrated by composers and musicians.",
+    "Musician,Disc Jockey,Singer,Composer,Music Teacher,Musical Therapist,Musical Journalist"
+  ],
+
+  "Linguistic": [
+    "You derive meaning from the world through language, effectively employing words in both speech and writing.\nThis type of intelligence is exemplified by individuals like writers and editors.",
+    "Poet,Journalist,Writer,Teacher,Lawyer,Legal Assistant,Politician,Translator,Speech Pathologist"
+  ],
+
+  "Intrapersonal": [
+    "You possess the capability to differentiate your own emotions, construct precise mental representations of yourself, and utilize these models to form decisions regarding your life.\nIndividuals who excel in this form of intelligence can be found across various spheres of existence.",
+    "Religion Researcher,Program Planner,Counselor,Researcher,Entrepreneur,Farmer"
+  ],
+
+  "Logical": [
+    "You recognize abstract connections and value intricate relationships. Your adeptness with numbers is notable.\nThis form of intelligence is exemplified by individuals such as scientists, mathematicians, and philosophers.",
+    "Purchasing Agent,Statistician,Data Mining Analyst,Scientists,Engineers,Accountants,Mathematicians,Accountant"
+  ],
+
+  "Interpersonal": [
+    "You possess the capacity to identify and comprehend the motivations and emotions of others.\nThis ability is prominent in professions like teaching, psychology, and sales.",
+    "Teachers,Psychologists,Counselors,Social Workers,Diplomats,Negotiators,Mediators,Human Resources Specialists"
+  ],
+
+  "Kinesthetic": [
+    "You employ either your entire body or specific body parts to craft solutions or generate outcomes.\nIndividuals possessing this intelligence include athletes, surgeons, dancers, and skilled artisans.",
+    "Physical Therapist,Farmer,Mechanic,Carpenter,Craftsperson,Firefighter,Actor,Dancer,PE Teacher,Sports Coach,Agriculturalist"
+  ],
+
+  "Spatial": [
+    "You possess the capability to perceive visual and spatial information adeptly, constructing impactful mental imagery.\nThis form of intelligence is prominent in professions such as architecture, artistry, and engineering.",
+    "Air Traffic Controller,Architect,Artist,Chef,Engineer,Fashion Designer,Filmmaker,Interior Design,Machinist,Pilot,Poet,Surgeon,CNC Programming,Physicist,Astronomer,Graphic Designer,Landscape Architect"
+  ]
+
+}
