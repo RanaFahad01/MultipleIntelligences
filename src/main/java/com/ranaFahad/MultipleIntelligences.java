@@ -54,7 +54,7 @@ package com.ranaFahad;
 ////// For each PersonalityScoreObject, print the counter variable, print the name of the PersonalityScoreObject
 ////// Then it prints percentage right next to it as seen in the example output.
 ////// Then it uses the PersonalityScoreObject name as a key for the jobs HashMap and loads
-////// - the corresponding job info array into memory. It then calls the .asList() method to convert it into a List so we can get an iterator from it
+////// - the corresponding job info array into memory. It then calls the .asList() method to convert it into a List, so we can get an iterator from it
 ////// Then it takes the iterator from that temporary List variable and loads it into the temporary Iterator variable.
 ////// Then it prints the job description, and starts printing the jobs next using a for loop
 ////// The loop is basically a for(n=0...3) loop nested inside a while(temparray.hasNext()) which adds a NewLine every
@@ -175,25 +175,14 @@ public class MultipleIntelligences {
     //Helper function choiceScore(int choiceNumber)
     private int choiceScore(String choiceNumber){
 
-            switch (choiceNumber) {
-                case "1":
-                    return -10;
-
-                case "2":
-                    return -5;
-
-                case "3":
-                    return 0;
-
-                case "4":
-                    return 5;
-
-                case "5":
-                    return 10;
-
-                default:
-                    throw new RuntimeException("ERROR. INVALID CHOICE NUMBER!");
-            }
+        return switch (choiceNumber) {
+            case "1" -> -10;
+            case "2" -> -5;
+            case "3" -> 0;
+            case "4" -> 5;
+            case "5" -> 10;
+            default -> throw new RuntimeException("ERROR. INVALID CHOICE NUMBER!");
+        };
 
 
     }
@@ -269,13 +258,11 @@ public class MultipleIntelligences {
                         .split(",");
 
                 //For each value in jobsSplitByCommas, it gets put into the intelligencesInformation ArrayList
-                for(String job:jobsSplitByCommas){
-                    intelligencesInformation.add(job);
-                }
+                Collections.addAll(intelligencesInformation, jobsSplitByCommas);
 
                 //A new entry in the HashMap is made with the arguments (currentIntelligenceTheLoopIsIteratingOver, theArrayObtainedUsingThe.toArrayMethodOnTheArrayList)
                 jobsHashMap.put(intelligence,
-                        intelligencesInformation.toArray(new String[intelligencesInformation.size()]));
+                        intelligencesInformation.toArray(new String[0]));
 
             }
 

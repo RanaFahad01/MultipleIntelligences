@@ -50,42 +50,16 @@ public class PersonalityScoreObject implements Comparable<PersonalityScoreObject
     //Checks if the value is a valid intelligence type, then assign the corresponding enum value
     public void setIntelligenceType(String intelligenceTypeGiven)
     {
-        switch (intelligenceTypeGiven.toLowerCase()){
-
-            case "naturalist":
-                this.intelligenceType = IntelligenceTypesEnum.NATURALIST;
-                break;
-
-            case "musical":
-                this.intelligenceType = IntelligenceTypesEnum.MUSICAL;
-                break;
-
-            case "linguistic":
-                this.intelligenceType = IntelligenceTypesEnum.LINGUISTIC;
-                break;
-
-            case "intrapersonal":
-                this.intelligenceType = IntelligenceTypesEnum.INTRAPERSONAL;
-                break;
-
-            case "logical":
-                this.intelligenceType = IntelligenceTypesEnum.LOGICAL;
-                break;
-
-            case "interpersonal":
-                this.intelligenceType = IntelligenceTypesEnum.INTERPERSONAL;
-                break;
-
-            case "kinesthetic":
-                this.intelligenceType = IntelligenceTypesEnum.KINESTHETIC;
-                break;
-
-            case "spatial":
-                this.intelligenceType = IntelligenceTypesEnum.SPATIAL;
-                break;
-
-            default:
-                System.out.println("ERROR: INVALID INTELLIGENCE TYPE!");
+        switch (intelligenceTypeGiven.toLowerCase()) {
+            case "naturalist" -> this.intelligenceType = IntelligenceTypesEnum.NATURALIST;
+            case "musical" -> this.intelligenceType = IntelligenceTypesEnum.MUSICAL;
+            case "linguistic" -> this.intelligenceType = IntelligenceTypesEnum.LINGUISTIC;
+            case "intrapersonal" -> this.intelligenceType = IntelligenceTypesEnum.INTRAPERSONAL;
+            case "logical" -> this.intelligenceType = IntelligenceTypesEnum.LOGICAL;
+            case "interpersonal" -> this.intelligenceType = IntelligenceTypesEnum.INTERPERSONAL;
+            case "kinesthetic" -> this.intelligenceType = IntelligenceTypesEnum.KINESTHETIC;
+            case "spatial" -> this.intelligenceType = IntelligenceTypesEnum.SPATIAL;
+            default -> System.out.println("ERROR: INVALID INTELLIGENCE TYPE!");
         }
     }
 
