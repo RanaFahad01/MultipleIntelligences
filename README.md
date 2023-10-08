@@ -30,7 +30,7 @@ See [Getting Started (As a Developer)](#getting-started-as-a-developer) for inst
 
     <img width="505" alt="Google Form for the aptitude test" src="https://github.com/RanaFahad01/MultipleIntelligences/assets/145490801/6358f5a9-f01a-43ef-9088-5a79fe2cfe71">
 
-2. Format your answers to the questions according to the FORMATTING GUIDE, put them in the AnswersFile.txt file and save.
+2. Format your answers to the questions according to the [formatting guide](Formatting_Guide.md), put them in the AnswersFile.txt file and save.
 
     <img width="505" alt="An image of the AnswersFile.txt file showing formatted answers" src="https://github.com/RanaFahad01/MultipleIntelligences/assets/145490801/8afb01d3-5a14-4dae-89ac-6da7972d7c1b">
 
@@ -82,3 +82,7 @@ This project comes with unit tests. If you want to look at the tests and what th
 ## License
 
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE.md](LICENSE.md) file for details
+
+## Special thanks to
+
+Dania Ahmed, who was a great help regarding the form - from styling the UI all the way to helping me come up with questions for the test.
