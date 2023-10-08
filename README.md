@@ -44,6 +44,7 @@ See [Getting Started (As a Developer)](https://github.com/RanaFahad01/MultipleIn
 
 **NOTE:**
 If you want to customize Intelligences' information such as their jobs or descriptions, you can do so by editing the "resources/jobs.json" file.
+
 <br>
 
 ## Getting Started (As a Developer)
@@ -55,65 +56,29 @@ These instructions will get you a copy of the project up and running on your loc
 * An IDE with Maven support (IntelliJ IDEA recommended)
 
 ### Installation
-  ‎‎‎‎‎‎‎‎#### Through GitHub:
-  1. Clone the repository
-  2. Open it using an IDE of your choice, it should automatically load in the dependencies since it's a Maven project.
+* #### Through GitHub:
+    I. Clone the repository
+  
+    II. Open it using an IDE of your choice, it should automatically load in the dependencies since it's a Maven project.
+* ####   Manual Installation:
+    I. Download the [latest release](https://github.com/RanaFahad01/MultipleIntelligences/releases) source code .zip file.
+  
+    II. Extract it to a location you won't forget (I recommend the Documents folder)
+  
+    III. Open the folder with the IDE of your choice, it will load the dependencies in since it's a Maven project.
 
-  ####   Manual Installation:
-  1. Download the [latest release](https://github.com/RanaFahad01/MultipleIntelligences/releases) source code .zip file.
-  2. Extract it to a location you won't forget (I recommend the Documents folder)
-  3. Open the folder with the IDE of your choice, it will load the dependencies in since it's a Maven project.
+### Unit Testing
 
-## Running the tests
+This project comes with unit tests. If you want to look at the tests and what they do, they are stored in the src/Test directory
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+<br>
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* Java
 * [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Getting Started (As a user)
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE.md](LICENSE.md) file for details
