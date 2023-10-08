@@ -14,7 +14,7 @@ It takes the result from the [Multiple Intelligences Aptitude Test form](https:/
 
 These instructions will get you a copy of the project up and running on your local machine for personal use. 
 
-See [Getting Started (As a Developer)](https://github.com/RanaFahad01/MultipleIntelligences/new/main#getting-started-as-a-developer) for instructions on how to get a copy up and running for development and testing purposes.
+See [Getting Started (As a Developer)](#getting-started-as-a-developer) for instructions on how to get a copy up and running for development and testing purposes.
 
 ### Prerequisites
 * Java 17 or above
